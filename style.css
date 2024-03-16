@@ -40,8 +40,8 @@ body {
 }
 
 #lineAngel1 {
-  font-size: 12px;
-  color: rgb(242, 218, 182);
+  font-size: 12px; 
+  color: rgb(245, 233, 213);
 }
 
 #lineAngel2 {
@@ -51,17 +51,17 @@ body {
 
 #lineAngel3 {
   font-size: 20px;
-  color: rgb(237, 164, 115);
+  color: rgb(235, 172, 130);
 }
 
 #lineAngel4 {
   font-size: 24px;
-  color:  rgb(177, 107, 60);
+  color:  rgb(145, 80, 38);
 }
 
 #lineAngel5 {
   font-size: 28px;
-  color:  rgb(148, 81, 37);
+  color:  rgb(134, 64, 18);
 }
 
 #lineAngel6 {
