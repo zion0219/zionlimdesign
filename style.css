@@ -40,33 +40,33 @@ body {
 }
 
 #lineAngel1 {
-  font-size: 14px;
+  font-size: 12px;
   color: rgb(242, 218, 182);
 }
 
 #lineAngel2 {
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(249, 220, 146);
 }
 
 #lineAngel3 {
-  font-size: 15px;
+  font-size: 16px;
   color: rgb(237, 164, 115);
 }
 
 #lineAngel4 {
-  font-size: 15px;
-  color:  rgb(225, 143, 88);
+  font-size: 18px;
+  color:  rgb(200, 121, 69);
 }
 
 #lineAngel5 {
-  font-size: 15px;
-  color:  rgb(200, 114, 56);
+  font-size: 20px;
+  color:  rgb(178, 97, 43);
 }
 
 #lineAngel6 {
-  font-size: 15px;
-  color: rgb(174, 82, 21);
+  font-size: 22px;
+  color: rgb(154, 70, 14);
 }
 
 
