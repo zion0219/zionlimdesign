@@ -51,12 +51,12 @@ body {
 
 #lineAngel3 {
   font-size: 20px;
-  color: rgb(235, 172, 130);
+  color: rgb(252, 193, 154);
 }
 
 #lineAngel4 {
   font-size: 24px;
-  color:  rgb(145, 80, 38);
+  color:  rgb(169, 104, 60);
 }
 
 #lineAngel5 {
@@ -117,4 +117,10 @@ body {
   font-family: Spectral, serif;
   font-weight: 200;
   font-style: italic;
+}
+
+.fleur-de leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
