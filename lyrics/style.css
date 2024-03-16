@@ -1,5 +1,6 @@
 body{
-    background-color: darkorange
+  background-image: linear-gradient(to bottom, #669eff, #f8bd96); */
+  background-color: #669eff';
 }
 
 #lineOne{
@@ -7,12 +8,11 @@ body{
 }
 
 #lineTwo{
-    font-size: 40px;
+    font-size: 12px;
 }
 #lineThree{
-    font-family: 'Gelasio', serif;
-    font-size: 90px;
-    background-color:aqua;
+    font-family: 'spectral-light', serif;
+    font-size: 12px;
 }
 
 .spectral-extralight {
@@ -98,4 +98,3 @@ body{
     font-weight: 800;
     font-style: italic;
   }
-  
