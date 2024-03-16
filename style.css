@@ -40,32 +40,32 @@ body {
 }
 
 #lineAngel1 {
-  font-size: 12px; 
+  font-size: 24px; 
   color: rgb(245, 233, 213);
 }
 
 #lineAngel2 {
-  font-size: 16px;
+  font-size: 30px;
   color: rgb(249, 220, 146);
 }
 
 #lineAngel3 {
-  font-size: 20px;
+  font-size: 36px;
   color: rgb(234, 171, 128);
 }
 
 #lineAngel4 {
-  font-size: 24px;
+  font-size: 42px;
   color:  rgb(169, 104, 60);
 }
 
 #lineAngel5 {
-  font-size: 28px;
+  font-size: 48px;
   color:  rgb(134, 64, 18);
 }
 
 #lineAngel6 {
-  font-size: 30px;
+  font-size: 54px;
   color: rgb(140, 40, 0);
 }
 
