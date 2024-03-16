@@ -39,6 +39,37 @@ body {
   color: rgb(255, 247, 224);
 }
 
+#lineAngel1 {
+  font-size: 14px;
+  color: rgb(242, 218, 182);
+}
+
+#lineAngel2 {
+  font-size: 15px;
+  color: rgb(249, 220, 146);
+}
+
+#lineAngel3 {
+  font-size: 15px;
+  color: rgb(239, 196, 122);
+}
+
+#lineAngel4 {
+  font-size: 15px;
+  color: rgb(237, 164, 115);
+}
+
+#lineAngel5 {
+  font-size: 15px;
+  color: rgb(225, 143, 88);
+}
+
+#lineAngel6 {
+  font-size: 15px;
+  color: rgb(200, 114, 56);
+}
+
+
 /* Font styles for Spectral font family */
 .spectral-extralight {
   font-family: Spectral, serif;
