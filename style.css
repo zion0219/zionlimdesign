@@ -1,19 +1,42 @@
 body {
   background-image: linear-gradient(to bottom, #669eff, #f8bd96);
   background-color: #669eff;
+  background-attachment: fixed;
 }
 
 #lineOne {
-  color: purple;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
 }
 
 #lineTwo {
-  font-size: 12px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
 }
 
 #lineThree {
-  font-family: 'spectral-light', serif;
-  font-size: 12px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineFour {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineFive {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineSix {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineSeven {
+  font-size: 20px;
+  color: rgb(255, 247, 224);
 }
 
 /* Font styles for Spectral font family */
