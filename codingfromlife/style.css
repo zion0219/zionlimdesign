@@ -15,20 +15,20 @@ body {
 .triangle {
 	width: 30;
 	height: 30;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
 	border-bottom: 200px solid yellow;
 	position: absolute;
 	top: 160px;
 	left: 100px;
-	transform: scale(0.5);
+	transform: scale(1);
 }
 
 .square {
 	width: 200px;
 	height: 200px;
 	background: red;
-	top: 160px;
+	top: 260px;
 	left: 350px;
 	position: absolute;
 }
@@ -36,10 +36,10 @@ body {
 .circle {
 	width: 200px;
 	height: 200px;
-	background: blue;
+	background: rgb(139, 139, 193);
 	border-radius: 200px;
-	top: 160px;
-	left: 600px;
+	top: 300px;
+	left: 300px;
 	position: absolute;
 }
 
