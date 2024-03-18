@@ -2,7 +2,7 @@ body {
     width: 100vw;
     background-color: black;
     color: blue;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 div {
@@ -11,6 +11,7 @@ div {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    perspective: 1000px;
 }
 
 p {
@@ -21,11 +22,11 @@ p {
 @keyframes test {
     0% {
         color: blue;
-        transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(1);
+        transform: skew(-10deg, 15deg) rotate(55deg) scale(2) scale(1);
     }
 
     100% {
         color: red;
-        transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(4) translateY(100);
+        transform: skew(-10deg, 15deg) rotate(45deg) scale(2) scale(4) translateY(100);
     }
 }
