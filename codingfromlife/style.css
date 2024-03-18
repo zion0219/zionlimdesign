@@ -1,51 +1,45 @@
-body {
-	background: #cccccc;
+.mug {
+    width: 50px;
+    height: 100px;
+    background: brown;
+    position: absolute;
+    top: 200px;
+    left: 150px;
 }
 
-/* do NOT modify the canvas */
-.canvas {
-	width: 1000px;
-	height: 600px;
-	margin: 100px auto;
-	background: white;
-	position: relative;
+.vase {
+    width: 50px;
+    height: 150px;
+    background: gray;
+    position: absolute;
+    top: 180px;
+    left: 500px;
 }
 
-/* modify the assets below */
-.triangle {
-	width: 30;
-	height: 30;
-	border-left: 300px solid transparent;
-	border-right: 300px solid transparent;
-	border-bottom: 200px solid yellow;
-	position: absolute;
-	top: 100px;
-	left: 200px;
-	transform: scale(1);
+.flower {
+    width: 20px;
+    height: 50px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
 }
 
-.square {
-	width: 200px;
-	height: 200px;
-	background: red;
-	top: 300px;
-	left: 350px;
-	position: absolute;
+.bowl {
+    width: 100px;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    top: 250px;
+    left: 700px;
 }
 
-.circle {
-	width: 200px;
-	height: 200px;
-	background: rgb(139, 139, 193);
-	border-radius: 200px;
-	top: 300px;
-	left: 300px;
-	position: absolute;
-}
-
-#square2 {
-	background: green;
-	width: 50px;
-	height: 300px;	
-	left: 180px;
+.fruit {
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 300px;
 }
