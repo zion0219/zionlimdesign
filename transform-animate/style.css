@@ -16,17 +16,18 @@ div {
 
 p {
     animation: test 2s linear alternate infinite;
+    transform-style: preserve-3d;
 }
 
 /* Step 1: Mess around with this animation setup. See what happens */
 @keyframes test {
     0% {
         color: blue;
-        transform: skew(-10deg, 15deg) rotate(55deg) scale(2) scale(1);
+        transform: skew(-10deg, 15deg) rotateY(20deg) translateZ(50px) scale(2);
     }
 
     100% {
         color: red;
-        transform: skew(-10deg, 15deg) rotate(45deg) scale(2) scale(4) translateY(100);
+        transform: skew(-10deg, 15deg) rotateY(-20deg) translateZ(50px) scale(2);
     }
 }
