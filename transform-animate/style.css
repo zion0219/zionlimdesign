@@ -2,7 +2,7 @@ body {
     width: 100vw;
     background-color: black;
     color: blue;
-    font-size: 70px;
+    font-size: 55px;
 }
 
 div {
@@ -29,5 +29,21 @@ p {
     100% {
         color: red;
         transform: skew(-10deg, 15deg) rotateY(-20deg) translateZ(50px) scale(2);
+    }
+}
+
+.fire {
+    animation: fireAnimation 2s ease-in-out alternate infinite;
+    /* Other specific styles here */
+}
+
+@keyframes fireAnimation {
+    0% {
+        color: orange;
+        transform: translateX(0px);
+    }
+    100% {
+        color: red;
+        transform: translateX(20px);
     }
 }
