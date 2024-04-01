@@ -16,6 +16,22 @@ body {
   font-size: 20px;
 }
 
+span {
+  display: inline-block;
+  animation: grounded 2s;
+  
+}
+
+@keyframes grounded {
+  0% {
+    transform: translateY(0);
+}
+100% {
+  transform:
+translateY(500px);
+}
+}
+
 #lineGemini1 {
   font-family: 'Unkempt', sans-serif;
   color: rgb(255, 255, 255);
