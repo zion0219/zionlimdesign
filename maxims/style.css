@@ -1,0 +1,126 @@
+body {
+  background-image: linear-gradient(to bottom, #669eff, #f8bd96);
+  background-color: #669eff;
+  background-attachment: fixed;
+}
+
+#lineOne {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineTwo {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineThree {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineFour {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineFive {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineSix {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#lineSeven {
+  font-size: 18px;
+  color: rgb(255, 247, 224);
+}
+
+#lineAngel1 {
+  font-size: 20px; 
+  color: rgb(245, 233, 213);
+}
+
+#lineAngel2 {
+  font-size: 23px;
+  color: rgb(249, 220, 146);
+}
+
+#lineAngel3 {
+  font-size: 26px;
+  color: rgb(171, 117, 84);
+}
+
+#lineAngel4 {
+  font-size: 29px;
+  color:  rgb(150, 76, 44);
+}
+
+#lineAngel5 {
+  font-size: 32px;
+  color:  rgb(130, 60, 13);
+}
+
+#lineAngel6 {
+  font-size: 35px;
+  color: rgb(140, 40, 0);
+}
+
+
+/* Font styles for Spectral font family */
+.spectral-extralight {
+  font-family: Spectral, serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.spectral-light {
+  font-family: Spectral, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-regular {
+  font-family: Spectral, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-medium {
+  font-family: Spectral, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-semibold {
+  font-family: Spectral, serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.spectral-bold {
+  font-family: Spectral, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.spectral-extrabold {
+  font-family: Spectral, serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.spectral-extralight-italic {
+  font-family: Spectral, serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
