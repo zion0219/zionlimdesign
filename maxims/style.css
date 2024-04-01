@@ -46,6 +46,13 @@ body {
   text-align: center;
 }
 
+#lineLibra {
+  font-family: 'Playfair Display', serif;
+  color: rgb(81, 48, 33);
+  font-size: 80px;
+  text-align: center;
+}
+
 #line {
   font-family: 'Unkempt', sans-serif;
   color: rgb(101, 120, 135);
@@ -115,6 +122,12 @@ body {
   height: 100vh;
 }
 
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
 /* Unvisited link */
 a:link {
