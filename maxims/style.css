@@ -32,6 +32,21 @@ body {
   margin-top: 0;
 }
 
+#lineLeo {
+  font-family: 'Rakkas', serif;
+  color: rgb(207, 105, 22);
+  font-size: 80px;
+  text-align: center;
+}
+
+#line {
+  font-family: 'Unkempt', sans-serif;
+  color: rgb(101, 120, 135);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+}
+
 .russo-one-regular {
   font-family: "Russo One", sans-serif;
   font-weight: 400;
@@ -55,6 +70,13 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.rakkas-regular {
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .center-text {
   display: flex;
