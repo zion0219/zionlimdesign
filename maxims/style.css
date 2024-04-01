@@ -6,6 +6,7 @@ body {
 
 #lineOne {
   font-size: 50px; 
+  font-family: 'Noto Sans Mono', sans-serif; /* Specify a fallback font */
   color: rgb(255, 255, 255);
 }
 
