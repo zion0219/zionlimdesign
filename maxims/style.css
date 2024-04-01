@@ -30,3 +30,23 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+/* Unvisited link */
+a:link {
+  color: #ffffff; /* Gold */
+}
+
+/* Visited link */
+a:visited {
+  color: #eae9e6; /* Orange */
+}
+
+/* Mouse over link */
+a:hover {
+  color: #E6E6FA; /* Lavender */
+}
+
+/* Selected link */
+a:active {
+  color: #d1e2e8; /* Light Blue */
+}
