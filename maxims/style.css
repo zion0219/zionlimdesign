@@ -17,14 +17,14 @@ body {
 }
 
 #lineGemini1 {
-  font-family: 'unkempt-bold', cursive;
+  font-family: 'unkempt-bold';
   color: rgb(255, 255, 255);
   font-size: 80px;
   text-align: center;
 }
 
 #lineGemini2 {
-  font-family: 'unkempt-regular', cursive;
+  font-family: 'unkempt-regular';
   color: rgb(157, 173, 186);
   font-size: 20px;
   text-align: center;
@@ -63,7 +63,7 @@ a:link {
 
 /* Visited link */
 a:visited {
-  color: #eae9e6; /* Orange */
+  color: #ffffff; /* Orange */
 }
 
 /* Mouse over link */
