@@ -9,7 +9,11 @@
     <style>
         /* Your existing CSS styles */
         body {
-            background-color: #f0f0f0; /* Background color */
+            background-image: linear-gradient(to bottom, #f8c572, #e36363); /* Change gradient colors */
+            background-color: #c81f1f;
+            background-attachment: fixed;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
         }
 
         .gradient-title {
@@ -18,6 +22,8 @@
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
+            margin-bottom: 20px; /* Add margin to bottom */
+            font-size: 50px; /* Increase font size */
         }
 
         .stair-text {
@@ -27,6 +33,10 @@
         /* Centered text */
         .center-text {
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         /* Remove default list-style from ul */
@@ -34,10 +44,10 @@
             list-style: none;
         }
 
-        /* Add margin between elements */
+        /* Apply Russo One font */
         #lineOne {
-            margin-bottom: 20px; /* Adjust as needed */
-            font-family: 'Russo One', sans-serif; /* Apply Russo One font */
+            font-family: 'Russo One', sans-serif;
+            color: rgb(255, 255, 255);
         }
     </style>
 </head>
