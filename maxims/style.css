@@ -1,74 +1,13 @@
 body {
-  background-image: linear-gradient(to bottom, #e45050, #f8bd96);
+  background-image: linear-gradient(to bottom, #ff99cc, #cc99ff); /* Change gradient colors */
   background-color: #c81f1f;
   background-attachment: fixed;
 }
 
 #lineOne {
-  font-size: 14px;
+  font-size: 24px; 
   color: rgb(255, 255, 255);
 }
-
-#lineTwo {
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-}
-
-#lineThree {
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-}
-
-#lineFour {
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-}
-
-#lineFive {
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-}
-
-#lineSix {
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-}
-
-#lineSeven {
-  font-size: 18px;
-  color: rgb(255, 247, 224);
-}
-
-#lineAngel1 {
-  font-size: 20px; 
-  color: rgb(245, 233, 213);
-}
-
-#lineAngel2 {
-  font-size: 23px;
-  color: rgb(249, 220, 146);
-}
-
-#lineAngel3 {
-  font-size: 26px;
-  color: rgb(171, 117, 84);
-}
-
-#lineAngel4 {
-  font-size: 29px;
-  color:  rgb(150, 76, 44);
-}
-
-#lineAngel5 {
-  font-size: 32px;
-  color:  rgb(130, 60, 13);
-}
-
-#lineAngel6 {
-  font-size: 35px;
-  color: rgb(140, 40, 0);
-}
-
 
 /* Font styles for Spectral font family */
 .spectral-extralight {
@@ -123,4 +62,11 @@ body {
   font-family: "Fleur De Leah", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
