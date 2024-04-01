@@ -10,6 +10,12 @@ body {
   margin-top: 50px;
 }
 
+#lineTwo {
+  font-family: 'Noto Sans Mono', sans-serif;
+  color: rgb(157, 173, 186);
+  font-size: 20px;
+}
+
 .russo-one-regular {
   font-family: "Russo One", sans-serif;
   font-weight: 400;
