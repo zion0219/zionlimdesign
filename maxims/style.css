@@ -5,9 +5,9 @@ body {
 }
 
 #lineOne {
-  font-size: 50px; 
-  font-family: 'Noto Sans Mono', sans-serif; /* Specify a fallback font */
-  color: rgb(255, 255, 255);
+  font-family: 'Noto Sans Mono', sans-serif;
+  color: rgb(205, 232, 202);
+  margin-top: 50px;
 }
 
 .russo-one-regular {
