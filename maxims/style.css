@@ -16,9 +16,33 @@ body {
   font-size: 20px;
 }
 
+#lineGemini1 {
+  font-family: 'unkempt-regular';
+  color: rgb(205, 232, 202);
+  margin-top: 50px;
+}
+
+#lineGemini2 {
+  font-family: 'unkempt-regular';
+  color: rgb(157, 173, 186);
+  font-size: 20px;
+}
+
 .russo-one-regular {
   font-family: "Russo One", sans-serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-regular {
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 700;
   font-style: normal;
 }
 
