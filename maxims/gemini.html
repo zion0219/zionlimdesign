@@ -16,28 +16,15 @@
         }
 
         #lineGemini1 {
-            font-family: 'unkempt-bold';
+            font-family: 'Unkempt', cursive; /* Corrected font name */
             color: rgb(255, 255, 255);
-            margin-top: 50px;
             font-size: 80px;
         }
 
         #lineGemini2 {
-            font-family: 'unkempt-regular';
+            font-family: 'Unkempt', cursive; /* Corrected font name */
             color: rgb(157, 173, 186);
             font-size: 20px;
-        }
-
-        .unkempt-regular {
-            font-family: "Unkempt", cursive;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        .unkempt-bold {
-            font-family: "Unkempt", cursive;
-            font-weight: 700;
-            font-style: normal;
         }
 
         .center-text {
@@ -45,24 +32,39 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            flex-direction: column; /* Align items vertically */
         }
 
-        /* Unvisited link */
+        /* Remove default list-style from ul */
+        ul {
+            list-style: none;
+            padding: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+        }
+
+        /* Add margin to the list item */
+        ul li {
+            margin-top: 10px; /* Adjust as needed */
+            display: inline-block; /* Display items inline */
+            margin-right: 20px; /* Add margin between items */
+        }
+
+        .bottom-link {
+            margin-top: 7px;
+        }
+
         a:link {
             color: #ffffff;
         }
 
-        /* Visited link */
         a:visited {
             color: #eae9e6;
         }
 
-        /* Mouse over link */
         a:hover {
             color: #E6E6FA;
         }
 
-        /* Selected link */
         a:active {
             color: #d1e2e8;
         }
