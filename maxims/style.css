@@ -188,14 +188,13 @@ translateY(500px);
   font-style: italic;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
-
-.cormorant {
-  font-family: "Cormorant", serif;
+.martian-mono-regular {
+  font-family: "Martian Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 400; /* or any value between 100 to 800 */
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100; /* or any value between 75 to 112.5 */
 }
 
 
