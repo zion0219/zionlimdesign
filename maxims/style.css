@@ -7,6 +7,7 @@ body {
 #lineOne {
   font-family: 'Noto Sans Mono', sans-serif;
   color: rgb(205, 232, 202);
+  font-size: 80px;
   margin-top: 50px;
 }
 
@@ -144,13 +145,6 @@ translateY(500px);
   height: 100vh;
 }
 
-.playfair-display {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
 .pinyon-script-regular {
   font-family: "Pinyon Script", cursive;
   font-weight: 400;
@@ -170,15 +164,30 @@ translateY(500px);
   font-style: normal;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 1000
-
-.dm-sans {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
   font-style: normal;
 }
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 
 /* Unvisited link */
 a:link {
