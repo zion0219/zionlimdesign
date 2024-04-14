@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap">
     <link href="style.css" rel="stylesheet" type="text/css">
     <style>
-
         body {
             background-image: linear-gradient(to bottom, #7d6e55, #392e20);
             background-color: #c81f1f;
@@ -30,6 +29,13 @@
         #lineOne {
             font-family: 'Noto Sans Mono';
             color: rgb(205, 232, 202);
+            animation: slideToBottom 2s infinite; /* Adjust the animation duration as needed */
+        }
+
+        @keyframes slideToBottom {
+            0% { transform: translateY(0); } /* Start at the initial position */
+            50% { transform: translateY(calc(100vh - 100px)); } /* Move the text down */
+            100% { transform: translateY(0); } /* Return to the initial position */
         }
 
         /* Add margin to the list item */
