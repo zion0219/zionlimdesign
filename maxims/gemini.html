@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>celestial</title>
+    <title>Celestial</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +10,18 @@
     <style>
         body {
             background-image: linear-gradient(to bottom, #eebeff, #c7d8ff);
-            background-color: #c81f1f;
             background-attachment: fixed;
             margin: 0;
             padding: 0;
         }
 
-        /* Text styles */
         #lineGemini1 {
             font-family: 'Unkempt', sans-serif;
-            color: rgb(255, 255, 255);
-            font-size: 80px; /* Adjust font size as needed */
+            color: white;
+            font-size: 80px;
             text-align: center;
             margin-bottom: 20px;
-            animation: wave 5s infinite; /* Animation duration */
+            animation: wave 4s infinite;
         }
 
         #lineGemini2 {
@@ -34,22 +32,21 @@
             margin-top: 0;
         }
 
-        /* Wave animation */
         @keyframes wave {
             0% {
-                transform: translate(0, 0);
+                transform: translateX(0) translateY(0);
             }
             25% {
-                transform: translate(20px, -20px);
+                transform: translateX(10px) translateY(-10px);
             }
             50% {
-                transform: translate(-20px, 20px);
+                transform: translateX(-10px) translateY(10px);
             }
             75% {
-                transform: translate(20px, -20px);
+                transform: translateX(10px) translateY(-10px);
             }
             100% {
-                transform: translate(0, 0);
+                transform: translateX(0) translateY(0);
             }
         }
 
@@ -77,9 +74,8 @@
             margin-top: 7px;
         }
 
-        /* Link styles */
         a:link {
-            color: #ffffff;
+            color: white;
         }
 
         a:visited {
@@ -87,5 +83,31 @@
         }
 
         a:hover {
-            color: #E6E6FA;
+            color: #e6e6fa;
         }
+
+        a:active {
+            color: #d1e2e8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-text">
+        <div>
+            <p id="lineGemini1">curious and adaptable</p>
+            <p id="lineGemini2">🎵 you can't surprise a geminiiii 🎵</p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://zion0219.github.io/zionlimdesign/maxims/taurus">go back</a></li>
+                <li><a href="https://zion0219.github.io/zionlimdesign/maxims/cancer">next page</a></li>
+            </ul>
+        </div>
+        <div class="bottom-link">
+            <a href="https://zion0219.github.io/zionlimdesign/maxims/aries">✧ celestial maxim homepage ✧</a>
+        </div>
+    </div>
+</body>
+
+</html>
