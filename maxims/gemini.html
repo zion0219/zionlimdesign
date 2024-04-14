@@ -4,7 +4,8 @@
 <head>
     <title>celestial</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap">
     <style>
         body {
@@ -15,34 +16,40 @@
             padding: 0;
         }
 
-        #lineGemini1,
-        #lineGemini2 {
+        /* Text styles */
+        #lineGemini1 {
             font-family: 'Unkempt', sans-serif;
             color: rgb(255, 255, 255);
             font-size: 80px; /* Adjust the font size */
             text-align: center;
             margin-bottom: 20px;
-            animation: wave 5s infinite; /* Apply wave animation */
+            animation: wave 5s infinite; /* Animation duration */
         }
 
         #lineGemini2 {
-            font-size: 20px; /* Adjust the font size */
+            font-family: 'Unkempt', sans-serif;
             color: rgb(101, 120, 135);
+            font-size: 20px;
+            text-align: center;
             margin-top: 0;
         }
 
+        /* Wave animation */
         @keyframes wave {
-            0%, 100% {
-                transform: translateY(0);
+            0% {
+                transform: translateX(0);
             }
             25% {
-                transform: translateY(-20px); /* Adjust the wave height */
+                transform: translateX(-20px);
             }
             50% {
-                transform: translateY(20px); /* Adjust the wave height */
+                transform: translateX(20px);
             }
             75% {
-                transform: translateY(-20px); /* Adjust the wave height */
+                transform: translateX(-20px);
+            }
+            100% {
+                transform: translateX(0);
             }
         }
 
@@ -70,6 +77,7 @@
             margin-top: 7px;
         }
 
+        /* Link styles */
         a:link {
             color: #ffffff;
         }
@@ -105,5 +113,4 @@
         </div>
     </div>
 </body>
-
 </html>
