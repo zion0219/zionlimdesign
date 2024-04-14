@@ -4,36 +4,46 @@
 <head>
     <title>celestial</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <style>
-        /* Your existing CSS styles */
         body {
-            background-image: linear-gradient(to bottom, #f8c572, #e36363); /* Change gradient colors */
+            background-image: linear-gradient(to bottom, #f8c572, #e36363);
             background-color: #c81f1f;
             background-attachment: fixed;
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
+            margin: 0;
+            padding: 0;
         }
 
-        /* Centered text */
         .center-text {
             text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            flex-direction: column; /* Align items vertically */
+            flex-direction: column;
         }
-        /* Apply Russo One font */
+
         #lineOne {
             font-family: 'Russo One', sans-serif;
             color: rgb(255, 255, 255);
+            font-size: 70px;
+            animation: boomerang 3s infinite;
         }
 
-        /* Add margin to the list item */
+        @keyframes boomerang {
+            0%, 100% {
+                font-size: 70px;
+            }
+            50% {
+                font-size: 100px;
+            }
+        }
+
         ul li {
-            margin-top: 7px; /* Adjust as needed */
+            margin-top: 7px;
         }
     </style>
 </head>
