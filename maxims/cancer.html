@@ -2,17 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>celestial</title>
+    <title>Celestial</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
     <style>
-
         body {
             background-image: linear-gradient(to bottom, #0f4b83, #55a0f7);
-            background-color: #c81f1f;
             background-attachment: fixed;
             margin: 0;
             padding: 0;
@@ -39,7 +37,6 @@
             margin: 0;
         }
 
-
         ul li {
             margin-top: 10px;
             display: inline-block;
@@ -51,7 +48,7 @@
         }
 
         a:link {
-            color: #ffffff;
+            color: white;
         }
 
         a:visited {
@@ -59,11 +56,31 @@
         }
 
         a:hover {
-            color: #E6E6FA;
+            color: #e6e6fa;
         }
 
         a:active {
             color: #d1e2e8;
+        }
+
+        /* CSS for the blue hearts */
+        .heart {
+            position: absolute;
+            color: blue;
+            font-size: 24px;
+            opacity: 0;
+            animation: fadeOut 2s forwards;
+        }
+
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
         }
     </style>
 </head>
@@ -83,6 +100,28 @@
             <a href="https://zion0219.github.io/zionlimdesign/maxims/aries">✧ celestial maxim homepage ✧</a>
         </div>
     </div>
+
+    <!-- JavaScript to add blue hearts -->
+    <script>
+        function createHeart() {
+            const heart = document.createElement('span');
+            heart.textContent = '💙';
+            heart.className = 'heart';
+            heart.style.position = 'absolute';
+            heart.style.left = `${Math.random() * window.innerWidth}px`;
+            heart.style.top = `${Math.random() * window.innerHeight}px`;
+            
+            document.body.appendChild(heart);
+
+            // Remove heart after animation ends
+            setTimeout(() => {
+                heart.remove();
+            }, 2000);
+        }
+
+        // Create a blue heart every 2 seconds
+        setInterval(createHeart, 2000);
+    </script>
 </body>
 
 </html>
