@@ -98,6 +98,12 @@ translateY(500px);
   text-align: center;
 }
 
+.fredericka-the great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .russo-one-regular {
   font-family: "Russo One", sans-serif;
   font-weight: 400;
