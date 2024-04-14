@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Celestial</title>
+    <title>celestial</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,7 +67,7 @@
         .heart {
             position: absolute;
             color: blue;
-            font-size: 24px;
+            font-size: 48px; /* Increase the font size for bigger hearts */
             opacity: 0;
             animation: fadeOut 2s forwards;
         }
@@ -119,8 +119,8 @@
             }, 2000);
         }
 
-        // Create a blue heart every 2 seconds
-        setInterval(createHeart, 2000);
+        // Create a blue heart every 1 second
+        setInterval(createHeart, 1000); /* Adjust the interval to 1 second */
     </script>
 </body>
 

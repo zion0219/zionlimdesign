@@ -9,10 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
     <style>
-
         body {
             background-image: linear-gradient(to bottom, #fdd962, #e68a1b);
-            background-color: #c81f1f;
             background-attachment: fixed;
             margin: 0;
             padding: 0;
@@ -23,6 +21,23 @@
             color: rgb(207, 105, 22);
             font-size: 80px;
             text-align: center;
+            animation: vibrate 0.1s infinite; /* Add animation for vibration effect */
+        }
+
+        /* Keyframes for vibrating effect */
+        @keyframes vibrate {
+            0%, 100% {
+                transform: translateX(0); /* Start and end position: no movement */
+            }
+            25% {
+                transform: translateX(-2px); /* Move left by 2px */
+            }
+            50% {
+                transform: translateX(2px); /* Move right by 2px */
+            }
+            75% {
+                transform: translateX(-2px); /* Move left by 2px */
+            }
         }
 
         .center-text {
@@ -39,7 +54,6 @@
             margin: 0;
         }
 
-
         ul li {
             margin-top: 10px;
             display: inline-block;
@@ -51,7 +65,7 @@
         }
 
         a:link {
-            color: #ffffff;
+            color: white;
         }
 
         a:visited {
@@ -59,7 +73,7 @@
         }
 
         a:hover {
-            color: #E6E6FA;
+            color: #e6e6fa;
         }
 
         a:active {
