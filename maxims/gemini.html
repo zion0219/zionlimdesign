@@ -30,6 +30,7 @@
             font-size: 20px;
             text-align: center;
             margin-top: 0;
+            animation: wave 4s infinite; /* Add the animation property here */
         }
 
         @keyframes wave {
@@ -37,13 +38,13 @@
                 transform: translateX(0) translateY(0);
             }
             25% {
-                transform: translateX(10px) translateY(-10px);
+                transform: translateX(10px) translateY(-20px);
             }
             50% {
-                transform: translateX(-10px) translateY(10px);
+                transform: translateX(-10px) translateY(15px);
             }
             75% {
-                transform: translateX(10px) translateY(-10px);
+                transform: translateX(10px) translateY(-20px);
             }
             100% {
                 transform: translateX(0) translateY(0);
