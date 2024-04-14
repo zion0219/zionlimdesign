@@ -26,36 +26,28 @@
             flex-direction: column;
         }
 
-        #lineOne {
-            font-family: 'Noto Sans Mono';
-            color: rgb(205, 232, 202);
-        }
-
-
+        /* Add margin to the list item */
         ul li {
-            margin-top: 10px;
-            display: inline-block;
-            margin-right: 20px;
+            margin-top: 10px; /* Adjust as needed */
+            display: inline-block; /* Display items inline */
+            margin-right: 20px; /* Add margin between items */
         }
 
-        .bottom-link {
-            margin-top: 7px; 
-        }
-
+        /* Grounded text at the bottom */
         .grounded-text {
             position: fixed;
             bottom: 0;
             width: 100%;
             text-align: center;
+            font-family: 'Noto Sans Mono';
+            color: rgb(205, 232, 202);
+            font-size: 24px; /* Adjust size as needed */
         }
     </style>
 </head>
 
 <body>
     <div class="center-text">
-        <div class="grounded-text">
-            <span>grounded</span>
-        </div>
         <div>
             <p id="lineOne" class="gradient-title">and steadfast</p>
         </div>
@@ -69,5 +61,9 @@
             <a href="https://zion0219.github.io/zionlimdesign/maxims/aries">✧ celestial maxim homepage ✧</a>
         </div>
     </div>
+    <div class="grounded-text">
+        <span>grounded</span> <!-- "grounded" part of text -->
+    </div>
 </body>
+
 </html>
