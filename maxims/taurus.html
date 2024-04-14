@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap">
     <link href="style.css" rel="stylesheet" type="text/css">
     <style>
-
         body {
             background-image: linear-gradient(to bottom, #7d6e55, #392e20);
             background-color: #c81f1f;
@@ -32,23 +31,33 @@
             color: rgb(205, 232, 202);
         }
 
-        /* Add margin to the list item */
+
         ul li {
-            margin-top: 10px; /* Adjust as needed */
-            display: inline-block; /* Display items inline */
-            margin-right: 20px; /* Add margin between items */
+            margin-top: 10px;
+            display: inline-block;
+            margin-right: 20px;
         }
 
         .bottom-link {
             margin-top: 7px; 
+        }
+
+        .grounded-text {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
     <div class="center-text">
+        <div class="grounded-text">
+            <span>grounded</span>
+        </div>
         <div>
-            <p id="lineOne" class="gradient-title"><span>grounded</span> and steadfast</p>
+            <p id="lineOne" class="gradient-title">and steadfast</p>
         </div>
         <div>
             <ul>
@@ -61,5 +70,4 @@
         </div>
     </div>
 </body>
-
 </html>
