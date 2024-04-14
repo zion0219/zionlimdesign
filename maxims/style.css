@@ -84,6 +84,20 @@ translateY(500px);
   text-align: center;
 }
 
+#lineCapricorn {
+  font-family: "Martian Mono", monospace;
+  color: rgb(194, 194, 194);
+  font-size: 70px;
+  text-align: center;
+}
+
+#lineAquarius {
+  font-family: "Jersey 10", sans-serif;
+  color: #a3ffdc;
+  font-size: 70px;
+  text-align: center;
+}
+
 .russo-one-regular {
   font-family: "Russo One", sans-serif;
   font-weight: 400;
@@ -197,6 +211,11 @@ translateY(500px);
     "wdth" 100; /* or any value between 75 to 112.5 */
 }
 
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Unvisited link */
 a:link {
