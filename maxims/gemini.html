@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap">
     <style>
-
         body {
             background-image: linear-gradient(to bottom, #eebeff, #c7d8ff);
             background-color: #c81f1f;
@@ -16,22 +15,36 @@
             padding: 0;
         }
 
-        #lineGemini1 {
+        #lineGemini1,
+        #lineGemini2 {
             font-family: 'Unkempt', sans-serif;
             color: rgb(255, 255, 255);
-            font-size: 80px;
+            font-size: 80px; /* Adjust the font size */
             text-align: center;
             margin-bottom: 20px;
+            animation: wave 5s infinite; /* Apply wave animation */
         }
 
         #lineGemini2 {
-            font-family: 'Unkempt', sans-serif;
+            font-size: 20px; /* Adjust the font size */
             color: rgb(101, 120, 135);
-            font-size: 20px;
-            text-align: center;
             margin-top: 0;
         }
 
+        @keyframes wave {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            25% {
+                transform: translateY(-20px); /* Adjust the wave height */
+            }
+            50% {
+                transform: translateY(20px); /* Adjust the wave height */
+            }
+            75% {
+                transform: translateY(-20px); /* Adjust the wave height */
+            }
+        }
 
         .center-text {
             display: flex;
@@ -46,7 +59,6 @@
             padding: 0;
             margin: 0;
         }
-
 
         ul li {
             margin-top: 10px;

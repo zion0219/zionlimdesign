@@ -29,20 +29,20 @@
         #lineOne {
             font-family: 'Noto Sans Mono';
             color: rgb(205, 232, 202);
-            animation: slideToBottom 2s infinite; /* Adjust the animation duration as needed */
+            animation: slideToBottom 4s infinite; /* Adjust the animation duration as needed */
         }
 
         @keyframes slideToBottom {
-            0% { transform: translateY(0); } /* Start at the initial position */
-            50% { transform: translateY(calc(100vh - 100px)); } /* Move the text down */
-            100% { transform: translateY(0); } /* Return to the initial position */
+            0% { transform: translateY(0); }
+            50% { transform: translateY(calc(100vh - 100px)); }
+            100% { transform: translateY(0); }
         }
 
-        /* Add margin to the list item */
+
         ul li {
-            margin-top: 10px; /* Adjust as needed */
-            display: inline-block; /* Display items inline */
-            margin-right: 20px; /* Add margin between items */
+            margin-top: 10px;
+            display: inline-block;
+            margin-right: 20px;
         }
 
         .bottom-link {
