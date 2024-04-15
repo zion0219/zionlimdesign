@@ -67,7 +67,7 @@
         .heart {
             position: absolute;
             color: blue;
-            font-size: 48px; /* Increase the font size for bigger hearts */
+            font-size: 150px;
             opacity: 0;
             animation: fadeOut 2s forwards;
         }
@@ -101,7 +101,7 @@
         </div>
     </div>
 
-    <!-- JavaScript to add blue hearts -->
+
     <script>
         function createHeart() {
             const heart = document.createElement('span');
@@ -113,14 +113,12 @@
             
             document.body.appendChild(heart);
 
-            // Remove heart after animation ends
             setTimeout(() => {
                 heart.remove();
             }, 2000);
         }
 
-        // Create a blue heart every 1 second
-        setInterval(createHeart, 1000); /* Adjust the interval to 1 second */
+        setInterval(createHeart, 300);
     </script>
 </body>
 
