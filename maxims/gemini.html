@@ -9,10 +9,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap">
     <style>
         body {
-            background-image: linear-gradient(to bottom, #eebeff, #c7d8ff);
-            background-attachment: fixed;
             margin: 0;
             padding: 0;
+            animation: changeBackground 10s infinite alternate;
+            background-attachment: fixed;
+        }
+
+        @keyframes changeBackground {
+            0% {
+                background-image: linear-gradient(to bottom, #eebeff, #c7d8ff);
+            }
+            50% {
+                background-image: linear-gradient(to bottom, #c7d8ff, #ffef96);
+            }
+            100% {
+                background-image: linear-gradient(to bottom, #eebeff, #c7d8ff);
+            }
         }
 
         #lineGemini1 {
@@ -30,7 +42,7 @@
             font-size: 20px;
             text-align: center;
             margin-top: 0;
-            animation: wave 4s infinite; /* Add the animation property here */
+            animation: wave 4s infinite;
         }
 
         @keyframes wave {
